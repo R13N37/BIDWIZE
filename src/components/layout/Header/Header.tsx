@@ -43,7 +43,7 @@ const Header: React.FC<HeaderProps> = () => {
     <header className="sticky top-0 z-50 w-full bg-[#3f5159] shadow-md">
       <div className="container mx-auto flex h-20 items-center justify-between sm:items-center px-4 sm:px-6 lg:px-8">
         
-       <div className="flex items-center justify-center w-full md:justify-start">
+       <div className="flex items-center justify-center w-full lg:w-auto md:justify-start">
           <img src={logo} alt="logo" className="h-16 w-28 sm:h-20 sm:w-32" />
        </div>
 
